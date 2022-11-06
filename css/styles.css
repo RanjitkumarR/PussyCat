@@ -40,7 +40,7 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /* Nav_BAR */
@@ -67,7 +67,11 @@ p {
 /* Tittle-Image */
 .iphone-img {
   width: 60%;
-  transform: rotate(25deg);
+  bottom: -456px;
+  right:30%;
+  transform: rotate(40deg);
+  position: absolute;
+
 }
 
 /* button */
@@ -90,6 +94,9 @@ p {
   padding: 7% 15%;
   text-align: center;
   padding: 5%;
+  background-color: white;
+  position:relative;
+
 }
 
 /* testimonials */
@@ -117,4 +124,44 @@ p {
 .press-icon {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+.testimonials-button{
+  padding: 0 50px;
+}
+
+
+#pricing{
+padding: 100px;
+text-align: center;
+}
+
+
+#pricingcard{
+  padding: 5% 2% ;
+
+}
+#cta {
+  background-color: #ff4c68;
+  padding-top: 40px;
+  text-align: center;
+}
+#footer{
+  padding: 3% 7%;
+  text-align: center;
+}
+.footer-icon{
+  margin: 20px 30px;
+}
+
+@media (max-width:991px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone-img {
+    position: static;
+    transform: rotate(0deg);
+  }
+
 }
